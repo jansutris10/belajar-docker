@@ -1,0 +1,5 @@
+FROM golang:1.11.4
+
+COPY main.go /home/jansutris10/MyApps/main.go
+
+CMD ["go", "run", "/home/jansutris10/MyApps/main.go"]
